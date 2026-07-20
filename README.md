@@ -3,8 +3,9 @@ d
 
 <h1 align="center">Hi 👋, I'm Rakesh Kushwaha</h1>
 
+<marquee behavior="scroll" direction="left" scrollamount="5">
 <h3 align="center">Shopify Developer | Liquid | Custom Apps | API Integration</h3>
-
+</marquee>
 <p align="center">
   Shopify developer with 6+ years of experience building scalable e-commerce storefronts,
   custom applications, API integrations, and high-performance shopping experiences.
