@@ -1,0 +1,86 @@
+=>Install Shopify CLI (One Time)
+npm install -g @shopify/cli @shopify/theme
+
+=>Login to Shopify
+shopify auth login
+
+Verify:shopify auth whoami
+
+=>Create Your Project Folder
+mkdir bourgee-theme
+cd bourgee-theme
+
+=>Pull the Theme From Store
+If you know the Theme ID:
+shopify theme pull \
+--store bourgee-international-demo.myshopify.com \
+--theme <THEME_ID>
+
+=>Or first list available themes:
+shopify theme list \
+--store bourgee-international-demo.myshopify.com
+
+=>Start Local Development
+shopify theme dev \
+--store bourgee-international-demo.myshopify.com
+
+=>Shopify CLI will provide URLs similar to:
+Local:
+http://127.0.0.1:9292
+
+Preview:
+https://xxxxxxxxxxxxxxxx.ngrok.io
+
+=>Changes are synced automatically.
+
+=>No manual refresh is usually required because Shopify CLI hot reloads changes.
+
+=>Check Theme Before Upload
+shopify theme check
+
+This helps identify Liquid, JSON, and Shopify best-practice issues.
+
+=>Push Changes
+Upload the current theme:
+shopify theme push \
+--store bourgee-international-demo.myshopify.com
+
+=>Or push to a specific theme:
+
+shopify theme push \
+--store bourgee-international-demo.myshopify.com \
+--theme <THEME_ID>
+
+=>Pull Latest Changes (If Someone Else Modified the Theme)
+shopify theme pull \
+--store bourgee-international-demo.myshopify.com
+
+
+
+
+# Login
+shopify auth login
+
+# Check current account
+shopify auth whoami
+
+# List themes
+shopify theme list --store bourgee-international-demo.myshopify.com
+
+# Pull theme
+shopify theme pull --store bourgee-international-demo.myshopify.com
+
+# Start development
+shopify theme dev --store bourgee-international-demo.myshopify.com
+
+# Upload changes
+shopify theme push --store bourgee-international-demo.myshopify.com
+
+# Download latest changes
+shopify theme pull --store bourgee-international-demo.myshopify.com
+
+# Delete local cache if needed
+shopify cache clear
+
+# Validate theme
+shopify theme check
