@@ -107,7 +107,7 @@ d
 
 ### Shopify Developer — Bitcot Technologies
 
-**December 2020 – Present | Indore, India**
+**1 December 2020 – Present | Indore, India**
 
 - Developed more than 15 Shopify stores from initial setup to production launch
 - Built and maintained private and public Shopify applications
