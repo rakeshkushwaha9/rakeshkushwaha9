@@ -122,7 +122,7 @@ d
 
 ### Shopify Developer — Votive Technologies
 
-**July 2018 – September 2020 | Indore, India**
+**10 July 2019 – 14 November 2020 | Indore, India**
 
 - Developed and customized Shopify storefronts for client projects
 - Worked on Shopify frontend and backend development
